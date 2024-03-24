@@ -9,7 +9,6 @@ const numbers = "0123456789";
 const spacialCharacters = "!@#$%^&*()_+-={}[]:;'\"<>?/ ";
 
 const acceptableColor = "rgb(64, 130, 64)";
-const acceptableColor = "rgb(64, 130, 64)";
 const errorColor = "rgb(161, 83, 83)";
 form.addEventListener("submit", (e) => {
   e.preventDefault();
