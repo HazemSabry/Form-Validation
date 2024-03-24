@@ -3,8 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Form Validation</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <form class="login-form" action="/" method="get" id="form">
+      <div class="input-container">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+        <p id="name-error"></p>
+      </div>
+      <div class="input-container">
+        <label for="password">Password</label>
+        <input type="text" name="password" id="password" />
+        <p id="password-error"></p>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
